@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="kaydet.html" method="post">
+        <fieldset>
+            <legend>Mesaj Gönderme</legend>
+            <input type="text" id="ad" name="ad" placeholder="Adınızı girin" required maxlength="20" size="20" autocomplete="off"><br><br>
+            <input type="email" id="email" name="email" placeholder="E-posta adresinizi girin"autocomplete="off"><br><br>
+            <input type="radio" name="cinsiyet" id="kiz">
+           <label for="kiz">Kız</label>
+           <input type="radio" name="cinsiyet" id="erkek">
+           <label for="erkek">Erkek</label><br><br>
+           <select id="bolum" name="bolum">
+            <option value="1">Bilgi almak istiyorum</option>
+            <option value="1">Öneride bulunmak istiyorum</option>
+            <option value="1">Şikayetimi iletmek istiyorum</option>
+           </select><br><br>
+            <textarea name="not" id="not" cols="50" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quam molestiae eum architecto accusamus, soluta fugit maiores numquam doloremque. Nisi atque quibusdam deserunt ipsa repellat enim perferendis voluptate tempora placeat!</textarea>
+            <br>
+            <button type="submit">Gönder</button>
+        <button type="reset">TEMİZLE</button>
+        </fieldset>
+    </form>
+</body>
+</html>
